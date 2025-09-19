@@ -7,13 +7,13 @@ def is_git_repo(path):
 
 # Main menu of the app
 def menu():
-    print('Menu')
-    print('1. Commit changes')
-    print('2. Pull repository')
-    print('3. Clone repository')
-    print('4. Exit')
-
     while True:
+        print('Menu')
+        print('1. Commit changes')
+        print('2. Pull repository')
+        print('3. Clone repository')
+        print('4. Exit')
+
         choice = input("Choose an option to continue >> ")
         if not choice:
             print('Error, try again!')
