@@ -1,6 +1,8 @@
 import os
 import subprocess
 
+print('Testing')
+
 # Helper to check if a folder is a Git repository
 def is_git_repo(path):
     return os.path.isdir(os.path.join(path, ".git"))
@@ -80,3 +82,4 @@ def clone_repo():
 
 # Run the menu
 menu()
+
